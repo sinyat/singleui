@@ -16,6 +16,7 @@ a {
     padding: 0;
 }
 
+/***按钮***/
 .btn {
     display: inline-block;
     padding: 6px 12px;
@@ -91,4 +92,20 @@ a {
 
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active {
     background-color: #ff0000;
+}
+
+/***按钮组***/
+.btn-group {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-group > .btn {
+    position: relative;
+    float: left;
+}
+
+.btn-group > .btn:not(:last-child) {
+    border-right: 0;
 }
