@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    font-size: 14px;
+}
+
+.doc {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.doc .main {
+    padding: 15px;
+}
